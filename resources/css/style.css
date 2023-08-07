@@ -172,5 +172,32 @@ nav li a:hover {
     background-color: var(--lightest-grey);
     padding: 2% 5% 8% 5%;
 }
+.s1-container > h1 {
+    text-align: center;
+    color: var(--dark-grey);
+    padding: 4%;
+}
 
+/* Start learning Grid */
+.s1-grid-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2%;
+}
+.s1-grid-wrapper img {
+    width: 100%;
+}
+
+/** Start learning individual grid **/
+.s1-grid-wrapper > * {
+    display: flex;
+    flex-direction: column;
+}
+.s1-info {
+    background-color: white;
+    padding: 5%;
+}
+.s1-info > * {
+    padding: 3% 0;
+}
 
