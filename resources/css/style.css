@@ -168,11 +168,12 @@ nav li a:hover {
 }
 
 /* Start Learning Section */
-.s1-container {
+.sl-container {
     background-color: var(--lightest-grey);
     padding: 2% 5% 8% 5%;
+    grid-auto-columns: 1fr;
 }
-.s1-container > h1 {
+.sl-container > h1 {
     text-align: center;
     color: var(--dark-grey);
     padding: 4%;
@@ -181,7 +182,7 @@ nav li a:hover {
 /* Start learning Grid */
 .s1-grid-wrapper {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 2fr);
     grid-gap: 2%;
 }
 .s1-grid-wrapper img {
@@ -189,15 +190,15 @@ nav li a:hover {
 }
 
 /** Start learning individual grid **/
-.s1-grid-wrapper > * {
+.sl-grid-wrapper > * {
     display: flex;
     flex-direction: column;
 }
-.s1-info {
+.sl-info {
     background-color: white;
     padding: 5%;
 }
-.s1-info > * {
+.sl-info > * {
     padding: 3% 0;
 }
 
